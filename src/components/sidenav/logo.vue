@@ -1,9 +1,11 @@
 <template>
-	<div class="logo">
-		<a href="#">
-			<img src="../../assets/logo.png" alt="logo">
-			<span>Vue Js dashboard</span>
-		</a>
+	<div class="sidenav-header">
+		<div class="logo">
+			<a href="#">
+				<img src="../../assets/logo.png" alt="logo">
+				<span>Vue Js dashboard</span>
+			</a>
+		</div>
 	</div>
 </template>
 
@@ -14,10 +16,14 @@
 </script>
 
 <style type="text/css">
+	.sidenav-header{
+		background-color: #1c81d9;
+		box-shadow: -6px 0px 10px rgba(0, 0, 0, 0.5);
+	}
 	.logo{
-		padding: 0px 25px;
-		height: 65px;
-		box-shadow: 0 2px 5px rgba(0,0,0,.26);
+		background-color: rgba(0, 0, 0, 0.05);
+		padding: 0px 20px;
+		height: 70px;
 	}
 	.logo a img{
 		height: 55px;
@@ -26,10 +32,10 @@
 	.logo a{
 		padding: 4px 0px;
 		display: block;
-		font-size: 14px;
+		font-size: 16px;
 		text-align: left;
-		font-weight: 600;
-		line-height: 40px;
+		font-weight: 500;
+		line-height: 55px;
 		color: #ffff;
 		text-decoration: none;
 	}

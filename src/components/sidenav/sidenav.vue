@@ -1,25 +1,22 @@
 <template>
 	<div class="sidenav">
-		<logo></logo>
+		<sidenavHeader></sidenavHeader>
 		<div class="sidenav-content">
-		<!-- 	<sidenavPicture>
-				<p slot="name">Akhtar Abbas</p>
-				<p slot="position">Front-End Engineer, Website Magician</p>
-			</sidenavPicture> -->
 			<routes :toggleNav="togNav"></routes>
-			<movingArrow></movingArrow>
-		</div>	
+		</div>
+		<sidenavFooter/>
 	</div>
 </template>
 
 <script type="text/javascript">
 	import sidenavPicture from './sidenav_picture'
+	import sidenavFooter from './sidenavFooter'
 	import movingArrow from './arrow'
-	import logo from './logo'
+	import sidenavHeader from './logo'
 	import routes from './routes'
 	export default {
 		components:{
-			sidenavPicture,logo,routes,movingArrow
+			sidenavHeader,routes,sidenavFooter
 		},
 		props:[
 		'togNav'
@@ -30,9 +27,9 @@
 <style type="text/css">
 	.sidenav{
 		position: fixed;
-		width: 250px;
-		/* background-color: #263238; */
-		background-color: #2f3a4c;
+		width: 240px;
+		box-shadow: rgba(0, 0, 0, 0.08) 1px 0px 20px;
+    	background: rgb(255, 255, 255);
 		color: #b0bec5;
 		top: 0;
 		bottom: 0;
@@ -43,7 +40,7 @@
 	.sidenav-content{
 		position: relative;
 	}
-	@media(max-width: 992px){
+	@media(max-width: 991px){
 		.sidenav{
 			transform: translate3d(-105%,0,0);
 		}

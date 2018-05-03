@@ -3,10 +3,10 @@ import Router from 'vue-router'
 import dashboard from '@/components/dashboard/dashboard'
 import profile from '@/components/profile/profile'
 import table from '@/components/table/table'
-import typography from '@/components/typography/typography'
 import icons from '@/components/icons/icons'
 import maps from '@/components/maps/maps'
-import notifications from '@/components/notifications/notifications'
+import blank from '@/components/blank/blank'
+import error from '@/components/error/error'
 
 Vue.use(Router)
 
@@ -33,25 +33,24 @@ export default new Router({
       component: table,
     },
     {
-      path: '/typography',
-      name: 'typography',
-      component: typography,
-    },
-    {
       path: '/icons',
-      name: 'icons',
+      name: 'themify icons',
       component: icons,
     },
     {
       path: '/maps',
-      name: 'maps',
+      name: 'google map',
       component: maps,
     },
     {
-      path: '/notifications',
-      name: 'notifications',
-      component: notifications,
+      path: '/blank',
+      name: 'blank page',
+      component: blank,
+    },
+    {
+      path: '/error404',
+      name: 'error 404',
+      component: error,
     }
-  ],
-  mode:'history'
+  ]
 })
