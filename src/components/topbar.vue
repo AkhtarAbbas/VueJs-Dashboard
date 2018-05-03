@@ -1,15 +1,12 @@
 <template>
 	<b-navbar toggleable="lg">
-		<button class="nav-toggle ml-3 mt-4" @click="toggleFn">
+		<button class="nav-toggle ml-3 small-left" @click="toggleFn">
 	        <span class="bar"></span>
 	        <span class="bar"></span>
 	        <span class="bar"></span>
 	    </button>
 		<b-collapse is-nav id="nav_collapse">
-			<b-navbar-nav left class="pl-3">
-				<div class="page-search"><span class="ti-search"></span></div>
-			</b-navbar-nav>
-			<b-navbar-nav class="ml-auto">
+			<b-navbar-nav class="ml-auto small-block">
 				<b-nav-item href="#" class="text-capitalize image text-muted">
 					<img src="../assets/4.jpg" alt="user_image" class="mr-2">
 					Angela Dominic
@@ -88,8 +85,18 @@
 		.navbar{
 			display: block;
 		}
-		.nav_collapse{
-			display: none;
+		.collapse:not(.show) {
+		    display: inline-block !important;
+			width: 90%;
+		}
+		.small-block{
+			display: inline-block;
+			float: right;
+			margin-top: 10px
+		}
+		.small-left{
+			float: left;
+			margin-top: 22px;
 		}
 	}
 </style>

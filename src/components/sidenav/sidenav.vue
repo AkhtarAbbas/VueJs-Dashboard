@@ -9,9 +9,7 @@
 </template>
 
 <script type="text/javascript">
-	import sidenavPicture from './sidenav_picture'
 	import sidenavFooter from './sidenavFooter'
-	import movingArrow from './arrow'
 	import sidenavHeader from './logo'
 	import routes from './routes'
 	export default {

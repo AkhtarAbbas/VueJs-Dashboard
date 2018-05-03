@@ -1,6 +1,6 @@
 <template>
 	<ul class="route-list">
-		<li  @click="toggleLi('.liOne');" class="nav-link liOne active">
+		<li  @click="toggleNav();toggleLi('.liOne');" class="nav-link liOne active">
 			<router-link to="/dashboard">
                 <span>
                 	<i class="ti-palette"></i>
@@ -8,7 +8,7 @@
                 </span>
             </router-link>
 		</li>
-		<li  @click="toggleLi('.liTwo');" class="nav-link liTwo">
+		<li  @click="toggleNav();toggleLi('.liTwo');" class="nav-link liTwo">
 			<router-link to="/profile">
                 <span>
                 	<i class="ti-user"></i>
@@ -16,7 +16,7 @@
                 </span>
             </router-link>
 		</li>
-		<li @click="toggleNav;toggleLi('.liThree');" class="nav-link liThree">
+		<li @click="toggleNav();toggleLi('.liThree');" class="nav-link liThree">
 			<router-link to="/table">
                 <span>
                 	<i class="ti-layout-tab-window"></i>
@@ -24,7 +24,7 @@
                 </span>
             </router-link>
 		</li>
-		<li  @click="toggleNav;toggleLi('.liFour');" class="nav-link liFour">
+		<li  @click="toggleNav();toggleLi('.liFour');" class="nav-link liFour">
 			<router-link to="/icons">
                 <span>
                 	<i class="ti-face-smile"></i>
@@ -32,7 +32,7 @@
                 </span>
             </router-link>
 		</li>
-		<li  @click="toggleNav;toggleLi('.liFive');" class="nav-link liFive">
+		<li  @click="toggleNav();toggleLi('.liFive');" class="nav-link liFive">
 			<router-link to="/maps">
                 <span>
                 	<i class="ti-map-alt"></i>
@@ -40,7 +40,7 @@
                 </span>
             </router-link>
 		</li>
-		<li  @click="toggleNav;toggleLi('.liSix');" class="nav-link liSix">
+		<li  @click="toggleNav();toggleLi('.liSix');" class="nav-link liSix">
 			<router-link to="/blank">
                 <span>
                 	<i class="ti-book"></i>
@@ -48,7 +48,7 @@
                 </span>
             </router-link>
 		</li>
-		<li  @click="toggleNav;toggleLi('.liSeven');" class="nav-link liSeven">
+		<li  @click="toggleNav();toggleLi('.liSeven');" class="nav-link liSeven">
 			<router-link to="/error404">
                 <span>
                 	<i class="ti-alert"></i>

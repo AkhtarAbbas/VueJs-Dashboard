@@ -27,7 +27,6 @@
 </template>
 
 <script type="text/javascript">
-	import boxlayout from '../boxlayout'
 	export default{
 		data: function (){
 			return{
