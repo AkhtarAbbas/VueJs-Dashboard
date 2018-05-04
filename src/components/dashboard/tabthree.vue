@@ -24,7 +24,7 @@
 				settings: [
 					{label:'full name',placeholder:'Johnathan Doe',type:'text',inputType:'input'},
 					{label:'email',placeholder:'Johnathan@admin.com',type:'email',inputType:'input'},
-					// {label:'password',value:'123456789',type:'password',inputType:'password'},
+					{label:'password',value:'123456789',type:'password',inputType:'password'},
 					{label:'phone',placeholder:'123 456 7890',type:'text',inputType:'input'},
 					{label:'message ',placeholder:' Doe',type:'text',inputType:'textarea'},
 					{label:'Select Country ',inputType:'select', select:['London','USA','Pakistan','China']},

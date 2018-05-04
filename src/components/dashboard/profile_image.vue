@@ -1,8 +1,8 @@
 <template>
 	<div class="card card-user text-center box-shadow">
-		<img src="../../assets/profile-bg.jpg" alt="..." class="card-img-top">
+		<img src="static/assets/profile-bg.jpg" alt="..." class="card-img-top">
 		<div class="card-block text-center">
-			<img src="../../assets/4.jpg" alt="..." class="avatar mb-4">
+			<img src="static/assets/4.jpg" alt="..." class="avatar mb-4">
 			<h5 class="mb-0 font-weight-normal">{{user.name}}</h5>
 			<p class="description mt-1 mb-3 text-muted font-weight-light">{{user.profession}}</p>
 			<a href="#" class="btn btn-primary btn-md mt-2">Follow</a>

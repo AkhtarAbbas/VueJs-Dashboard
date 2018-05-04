@@ -8,7 +8,7 @@
 		<b-collapse is-nav id="nav_collapse">
 			<b-navbar-nav class="ml-auto small-block">
 				<b-nav-item href="#" class="text-capitalize image text-muted">
-					<img src="../assets/4.jpg" alt="user_image" class="mr-2">
+					<img src="static/assets/4.jpg" alt="user_image" class="mr-2">
 					Angela Dominic
 				</b-nav-item>
 			</b-navbar-nav>

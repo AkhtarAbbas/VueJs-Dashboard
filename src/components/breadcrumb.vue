@@ -19,6 +19,9 @@
 </script>
 
 <style>
+	ol, .breadcrumb{
+		background-color: #fff !important;
+	}
 	.page-breadcrumb,.breadcrumb{
 		background-color: #ffffff;
 	}

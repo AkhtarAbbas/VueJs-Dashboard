@@ -41,19 +41,19 @@
 				tabone:[
 					{
 						name: 'john doe',
-						profile: '/src/assets/1.jpg',
+						profile: 'static/assets/1.jpg',
 						time:'5 minutes ago',
 						tabLink:'Design web layout',
-						images:['/src/assets/img1.jpg','/src/assets/img2.jpg','/src/assets/img3.jpg','/src/assets/img4.jpg'],
+						images:['static/assets/img1.jpg','static/assets/img2.jpg','static/assets/img3.jpg','static/assets/img4.jpg'],
 						comments:'3',
 						love:'6',
 						hr: true,
 					},
 					{
 						name: 'Pavan kumar',
-						profile: '/src/assets/profile.jpg',
+						profile: 'static/assets/profile.jpg',
 						time:'6 minutes ago',
-						images:['/src/assets/img1.jpg'],
+						images:['static/assets/img1.jpg'],
 						imagePara:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.',
 						button: 'Design web layout',
 						comments:'4',
@@ -62,7 +62,7 @@
 					},
 					{
 						name: 'Sonu Nigam',
-						profile: '/src/assets/2.jpg',
+						profile: 'static/assets/2.jpg',
 						time:'8 minutes ago',
 						para:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper',
 						comments:'1',
@@ -71,7 +71,7 @@
 					},
 					{
 						name: 'Arijit Sinh',
-						profile: '/src/assets/4.jpg',
+						profile: 'static/assets/4.jpg',
 						time:'10 minutes ago',
 						blockquote:'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt',
 						hr: false,

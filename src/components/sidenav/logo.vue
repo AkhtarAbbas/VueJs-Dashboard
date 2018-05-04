@@ -2,7 +2,7 @@
 	<div class="sidenav-header">
 		<div class="logo">
 			<a href="#">
-				<img src="../../assets/logo.png" alt="logo">
+				<img src="static/assets/logo.png" alt="logo">
 				<span>Vue Js dashboard</span>
 			</a>
 		</div>

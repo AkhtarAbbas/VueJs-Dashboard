@@ -1,6 +1,6 @@
 <template>
 	<div class="card box-shadow p-4 text-center profile-card mb-4">
-		<img src="../../assets/4.jpg" alt="" class="img-fluid mt-4 mb-3">
+		<img src="static/assets/4.jpg" alt="" class="img-fluid mt-4 mb-3">
 		<h5 class="font-weight-normal">Angela Dominic</h5>
 		<h6 class="font-weight-light">Web Designer & Developer</h6>
 		<div class="row">

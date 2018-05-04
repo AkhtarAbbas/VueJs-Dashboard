@@ -29,9 +29,9 @@ export default{
 	data(){
 		return{
 			users:[
-				{name:'Pavan kumar',mail:'info@wrappixel.com', image:'/src/assets/profile.jpg'},
-				{name:'Sonu Nigam',mail:'pamela1987@gmail.com', image:'/src/assets/2.jpg'},
-				{name:'Angela Dominic',mail:'cruise1298.fiplip@gmail.com', image:'/src/assets/4.jpg'},
+				{name:'Pavan kumar',mail:'info@wrappixel.com', image:'static/assets/profile.jpg'},
+				{name:'Sonu Nigam',mail:'pamela1987@gmail.com', image:'static/assets/2.jpg'},
+				{name:'Angela Dominic',mail:'cruise1298.fiplip@gmail.com', image:'static/assets/4.jpg'},
 			]
 		}
 	}
