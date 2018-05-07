@@ -99,4 +99,13 @@
 			margin-top: 22px;
 		}
 	}
+	@media (max-width: 580px) {
+		.collapse:not(.show) { 
+			width: 83%;
+		}
+	} 
+	.logo a:hover { 
+		color: #fff;
+		text-decoration: none;
+	}
 </style>

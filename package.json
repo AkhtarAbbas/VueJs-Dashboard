@@ -13,9 +13,11 @@
   "homepage": "https://github.com/myusername/my-app",
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.8",
+    "chartist": "^0.11.0",
     "raleway-webfont": "^3.0.1",
     "ti-icons": "^0.1.2",
     "typeface-poppins": "0.0.54",
+    "v-chartist": "^0.1.6",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
@@ -35,6 +37,7 @@
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
+    "github-pages": "^3.0.2",
     "html-webpack-plugin": "^2.30.1",
     "node-notifier": "^5.1.2",
     "optimize-css-assets-webpack-plugin": "^3.2.0",

@@ -41,4 +41,9 @@
 		font-weight: 500;
 	    border-top: 1px solid transparent;
 	}
+	@media(max-width: 500px){
+		.table{
+			overflow-x: scroll !important;
+		}
+	}
 </style>

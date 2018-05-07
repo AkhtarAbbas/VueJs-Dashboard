@@ -3,10 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueChartist from 'v-chartist'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'ti-icons/css/themify-icons.css'
+import 'chartist/dist/chartist.css'
 
 Vue.use(BootstrapVue);
 Vue.config.productionTip = false
