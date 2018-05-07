@@ -1,5 +1,5 @@
 <template>
-	<div class="donut bg-white mb-4">
+	<div class="donut bg-white mb-4 box-shadow">
 		<div class="chart p-4">
 			<h4 class="font-weight-normal">Our Visitors </h4>
 			<span class="font-weight-light chart-subtitle">Different Devices Used to Visit</span>
@@ -44,6 +44,9 @@
 </script>
 
 <style>
+	.donut{
+		border-radius: 4px;
+	}
 	.v-chartist-container {
 		position: relative;
 		text-align: center;

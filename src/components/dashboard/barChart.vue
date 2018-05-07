@@ -1,5 +1,5 @@
 <template>
-	<div class="card barchart p-4 mb-4">
+	<div class="card barchart p-4 mb-4 box-shadow">
 		<div class="row">
 			<div class="col-12">
                 <div class="d-flex flex-wrap">
@@ -38,7 +38,7 @@
 	            },
 	            options: {
 	                fullWidth: true,
-	                height: 365,
+	                height: 340,
 	            }
 			}
 		},
